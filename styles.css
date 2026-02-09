@@ -264,7 +264,7 @@ p code, li code{
 }
 
 #section4 li::before{
-    content: 
+    content:""
 }
 
 #section5 p:last-of-type{
@@ -441,7 +441,7 @@ footer{
     display:block;
     width:200px;
     height:auto;
-    margin:center;
+    margin:0 auto;
     filter:var(--filter-shadow-sm);
     
 }
@@ -585,7 +585,7 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
-    background-color:var(--light-gray) 110% url("images/wood.png");
+    background:var(--light-gray) 110% url("images/wood.png");
     
 }
 
